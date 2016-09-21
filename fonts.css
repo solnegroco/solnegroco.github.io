@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Fractur';
+    src: url('Fractur.eot');
+    src: url('Fractur.eot?#iefix') format('embedded-opentype'),
+        url('Fractur.woff') format('woff'),
+        url('Fractur.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
