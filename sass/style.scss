@@ -1,0 +1,46 @@
+@import "reset.scss";
+
+$fjalla:'Fjalla One', sans-serif;
+$alegreya:'Alegreya Sans', sans-serif;
+$colorOne:white;
+$colorTwo:black; 
+
+header {
+	background-color:$colorTwo;
+	padding:20px!important;
+	color:$colorOne;
+	.name{
+		font-family: $fjalla;
+	}
+	a {
+		color:$colorOne;
+		font-family: $alegreya;
+		text-decoration: none;
+		&:hover {
+			text-decoration: none;
+		}
+	} 
+	nav {
+		text-align: right;
+		ul{
+			li{
+				display: inline-block;
+				padding:0 10px;
+
+				&:last-child {
+					padding-right:0px;
+				}
+			}
+		}
+	}
+}
+
+.content {
+	.quadro {
+		display: none;
+		background-color:$colorTwo;
+		padding:20px;
+		color:white;
+		font-family: $alegreya;
+	}
+}
