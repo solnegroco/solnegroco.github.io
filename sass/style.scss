@@ -1,46 +1,24 @@
-@import "reset.scss";
+$Germanika: 'Germanika Personal Use';
+$Fractur: 'Fractur';
+$TannenbergContour: 'Tannenberg Contour';
+$UnifrakturMaguntia: 'UnifrakturMaguntia';
+$GrobeDeutschmeister: 'Grobe Deutschmeister';
+$Tannenberg: 'Tannenberg';
+$Blankenburg: 'Blankenburg';
+$TannenbergFett: 'Tannenberg Fett';
+$FetteHaenelFraktur: 'Fette Haenel Fraktur';
+$Tannenberg: 'Tannenberg';
+$HandTextur: 'Hand Textur';
 
-$fjalla:'Fjalla One', sans-serif;
-$alegreya:'Alegreya Sans', sans-serif;
-$colorOne:white;
-$colorTwo:black; 
+.container {
+	width:220px; 
+	height:220px; 
+	margin: 0 auto; 
+	margin-top:5%;
 
-header {
-	background-color:$colorTwo;
-	padding:20px!important;
-	color:$colorOne;
-	.name{
-		font-family: $fjalla;
-	}
-	a {
-		color:$colorOne;
-		font-family: $alegreya;
-		text-decoration: none;
-		&:hover {
-			text-decoration: none;
-		}
-	} 
-	nav {
-		text-align: right;
-		ul{
-			li{
-				display: inline-block;
-				padding:0 10px;
-
-				&:last-child {
-					padding-right:0px;
-				}
-			}
-		}
-	}
-}
-
-.content {
-	.quadro {
-		display: none;
-		background-color:$colorTwo;
-		padding:20px;
-		color:white;
-		font-family: $alegreya;
+	h1 {
+		font-family: $Tannenberg; 
+		text-align:center; 
+		margin-top:20px;
 	}
 }
